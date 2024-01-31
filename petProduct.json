@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "image": "https://shop-phinf.pstatic.net/20230112_35/1673480166674X1UyE_PNG/74616062357090410_1813462543.PNG?type=o1000",
+        "productName": "포인핸드 척척방석 강아지방석",
+        "price": "49,000원"
+    },
+    {
+        "id": 2,
+        "image": "https://shop-phinf.pstatic.net/20220503_164/1651568859096BbqqO_JPEG/52704686833552594_1304915382.jpg?type=o1000",
+        "productName": "포인핸드 강아지 산책 리드줄 2m",
+        "price": "10,000원"
+    },
+    {
+        "id": 3,
+        "image": "https://shop-phinf.pstatic.net/20220503_261/1651568616001AGTKs_JPEG/52704443504002428_771044674.jpg?type=o1000",
+        "productName": "포인핸드 H형 강아지 가슴줄",
+        "price": "20,000원"
+    },
+    {
+        "id": 4,
+        "image": "https://shop-phinf.pstatic.net/20220503_233/1651568722972tsfqO_JPEG/52704550549965741_425547650.jpg?type=o1000",
+        "productName": "포인핸드 Y형 강아지 가슴줄",
+        "price": "20,000원"
+    },
+    {
+        "id": 5,
+        "image": "https://shop-phinf.pstatic.net/20230628_30/1687917676455aGVMx_JPEG/38604120483214346_1052895776.jpg?type=o1000",
+        "productName": "포인핸드 산책 캠페인 와펜",
+        "price": "10,000원"
+    },
+    {
+        "id": 6,
+        "image": "https://shop-phinf.pstatic.net/20230123_130/1674478014854v4I7y_JPEG/1780698714021871_397181741.jpg?type=o1000",
+        "productName": "포인핸드 강아지 하네스+리드줄 SET",
+        "price": "30,000원"
+    },
+    {
+        "id": 7,
+        "image": "https://shop-phinf.pstatic.net/20220708_111/1657257390405todqd_JPEG/58393174109892884_2026350215.jpg?type=o1000",
+        "productName": "포인핸드 반려동물 입양수첩",
+        "price": "10,000원"
+    }
+]
+  

@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "image": "https://shop-phinf.pstatic.net/20230804_278/1691134166628lf5Ld_JPEG/5437068445859815_1851369065.jpg?type=m510",
+        "productName": "포인핸드 로고 트라이탄 컵",
+        "price": "15,000원"
+    },
+    {
+        "id": 2,
+        "image": "https://shop-phinf.pstatic.net/20230802_250/1690947373303vaexm_JPEG/4413367585113612_1587980781.jpg?type=m510",
+        "productName": "포인핸드 베이직 머그컵",
+        "price": "15,000원"
+    },
+    {
+        "id": 3,
+        "image": "https://shop-phinf.pstatic.net/20220308_48/16467313036703yv6F_JPEG/47867087377484221_1213980394.jpg?type=m510",
+        "productName": "포인핸드 로고 텀블러",
+        "price": "25,000원"
+    },
+    {
+        "id": 4,
+        "image": "https://shop-phinf.pstatic.net/20220225_8/1645781276483EBM4K_JPEG/46917122033681616_649306731.jpg?type=m510",
+        "productName": "포인핸드 로고 머그컵",
+        "price": "15,000원"
+    },
+    {
+        "id": 5,
+        "image": "https://shop-phinf.pstatic.net/20220929_57/1664440452436WW6zJ_JPEG/65576286247085523_1957605583.jpg?type=m510",
+        "productName": "포인핸드 투톤 에코백",
+        "price": "25,000원"
+    },
+    {
+        "id": 6,
+        "image": "https://shop-phinf.pstatic.net/20220223_201/1645591474732WGkuh_JPEG/46727308540845233_1666064587.jpg?type=m510",
+        "productName": "무지개다리 뱃지",
+        "price": "7,000원"
+    },
+    {
+        "id": 7,
+        "image": "https://shop-phinf.pstatic.net/20220223_113/16455914628520CvRz_JPEG/46727296664336570_766806879.jpg?type=m510",
+        "productName": "길 위의 고양이 뱃지",
+        "price": "7,000원"
+    },
+    {
+        "id": 8,
+        "image": "https://shop-phinf.pstatic.net/20230804_166/1691135248763RDHF9_JPEG/1294543564244100_1306380290.jpg?type=m510",
+        "productName": "포인핸드 10주년 핀뱃지",
+        "price": "7,000원"
+    },
+    {
+        "id": 9,
+        "image": "https://shop-phinf.pstatic.net/20230804_220/1691128871682hIVGX_JPEG/1990212539811011_1735052516.jpg?type=m510",
+        "productName": "포인핸드 로고 버튼 뱃지",
+        "price": "2,000원"
+    },
+    {
+        "id": 10,
+        "image": "https://shop-phinf.pstatic.net/20230804_239/16911295116530b8r9_JPEG/6141598721618167_9894686.jpg?type=m510",
+        "productName": "포인핸드 로고 아크릴 키링",
+        "price": "9,000원"
+    },
+    {
+        "id": 11,
+        "image": "https://shop-phinf.pstatic.net/20230804_105/1691129182889M2IiE_JPEG/1990523750597162_1974506920.jpg?type=o1000",
+        "productName": "포인핸드 로고 텀블러",
+        "price": "5,000원"
+    }
+]
+  

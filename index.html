@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포인핸드 | 상품</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="../pavicons.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../pavicons.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../pavicons.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../pavicons.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../pavicons.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../pavicons.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../pavicons.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../pavicons.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../pavicons.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../pavicons.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../pavicons.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../pavicons.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../pavicons.ico/favicon-16x16.png">
+    <link rel="manifest" href="../pavicons.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="./css/common.css" type="text/css" rel="stylesheet">
+    <link href="./css/pc.css" type="text/css" rel="stylesheet">
+    <link href="./css/tab.css" type="text/css" rel="stylesheet">
+    <link href="./css/mo.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="./script/product.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="searchModal">
+            <img onclick="searchToggle()" src="./img/close.png" alt="닫기 버튼">
+            <input class="searchBox" type="text" placeholder="검색어를 입력해주세요">
+            <button class="submitBut" type="submit"></button>
+            <div class="tagBox">
+                <a href="#" class="tags">#입양</a>
+                <a href="#" class="tags">#사진전</a>
+                <a href="#" class="tags">#유기견</a>
+                <a href="#" class="tags">#도사견</a>
+            </div>
+        </div>
+        <div class="hiddenMenuBg">
+            <div class="hiddenMenuIcon menuBut">
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="hiddenMenuWrap">
+                <a class="hiddenMenu" href="#">Pawinhand<br>Campaign</a>
+                <a class="hiddenMenu" href="#">Pawinhand<br>Friends</a>
+                <p class="textAnimation">
+                    <span style="animation-delay: 0s;">새</span>
+                    <span style="animation-delay: 0.2s;">로</span>
+                    <span style="animation-delay: 0.4s;">운</span>
+                    <span>&nbsp;</span>
+                    <span style="animation-delay: 0.6s;">친</span>
+                    <span style="animation-delay: 0.8s;">구</span>
+                    <span style="animation-delay: 1s;">들</span>
+                    <span style="animation-delay: 1.2s;">의</span>
+                    <span>&nbsp;</span>
+                    <span style="animation-delay: 1.4s;">이</span>
+                    <span style="animation-delay: 1.6s;">야</span>
+                    <span style="animation-delay: 1.8s;">기</span>
+                    <span style="animation-delay: 2s;">를</span>
+                    <span>&nbsp;</span>
+                    <span style="animation-delay: 2.2s;">들</span>
+                    <span style="animation-delay: 2.4s;">어</span>
+                    <span style="animation-delay: 2.6s;">보</span>
+                    <span style="animation-delay: 2.8s;">세</span>
+                    <span style="animation-delay: 3s;">요</span>
+                    <span style="animation-delay: 3.2s;">!</span>
+                </p>
+            </nav>
+            <div class="imgWrap">
+                <img class="smallPrint print" src="./img/footprint.png" alt="발자국 이미지">
+                <img class="middlePrint print" src="./img/footprint.png" alt="발자국 이미지">
+                <img class="bigPrint print" src="./img/footprint.png" alt="발자국 이미지">
+            </div>
+        </div>
+        <header>
+            <h1 class="mainLogo"><a href="#"></a></h1>
+            <nav class="MenuWrap">
+                <a class="mainMenu" href="#">Campaign</a>
+                <a class="mainMenu" href="#">Friends</a>
+            </nav>
+            <button class="searchBut" onclick="searchToggle()"></button>
+                <div class="menuIcon menuBut">
+                    <span></span>
+                    <span></span>
+                </div>
+        </header>
+
+        <section class="mainCon">
+            <article class="bannerWrap conWrap">
+                <!-- Slider main container -->
+                <div class="swiper slideBanner">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="./img/main-img01.jpg" alt="포인핸드 활동 이미지">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/main-img02.jpg" alt="포인핸드 배너 이미지">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/main-img03.jpg" alt="포인핸드 활동 이미지">
+                    </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <h2 class="bannerTitle">사랑하는<br> 나의 강아지들에게<br> 선물해보세요<i></i></h2>
+                <div class="adBanner">
+                    <p>포인핸드 스토어 수익금은<br class="m_br"> <strong>유기동물 후원 및<br> 유기동물 입양 문화 조성을 위한<br class="m_br"> 포인핸드 활동</strong>에 사용됩니다.</p>
+                    <img src="./img/friends.png" alt="포인핸드 프렌즈 일러스트">
+                </div>
+            </article>
+            <div class="contentsWrap conWrap">
+                <ul class="tabMenuWrap">
+                    <li class="tabMenu">베스트</li>
+                    <li class="tabMenu">생활용품</li>
+                    <li class="tabMenu">반려용품</li>
+                    <li class="tabMenu">매거진</li>
+                </ul>
+                <div class="menuBox">
+                    <div class="conBut leftBut"><</div>
+                    <div class="conBut rightBut">></div>
+                    <div class="inCon">
+                        <img src="https://placehold.it/120x120" alt="임시 이미지">
+                        <h4 class="productName">임시 상품 이름</h4>
+                        <h3 class="price"><span>10,000</span>원</h3>
+                    </div>
+                    <div class="inCon">
+                        <img src="https://placehold.it/120x120" alt="임시 이미지">
+                        <h4 class="productName">임시 상품 이름</h4>
+                        <h3 class="price"><span>10,000</span>원</h3>
+                    </div>
+                    <div class="inCon">
+                        <img src="https://placehold.it/120x120" alt="임시 이미지">
+                        <h4 class="productName">임시 상품 이름</h4>
+                        <h3 class="price"><span>10,000</span>원</h3>
+                    </div>
+                    <div class="inCon">
+                        <img src="https://placehold.it/120x120" alt="임시 이미지">
+                        <h4 class="productName">임시 상품 이름</h4>
+                        <h3 class="price"><span>10,000</span>원</h3>
+                    </div>
+                </div>
+                <h3 class="reviewTitle"><span class="tabMenu">리뷰</span></h3>
+                <div class="reviewCon">
+                    <div class="review">
+                        <img src="https://shop-phinf.pstatic.net/20230804_278/1691134166628lf5Ld_JPEG/5437068445859815_1851369065.jpg?type=m510" alt="베스트 상품 1">
+                    </div>
+                    <div class="review">
+                        <img src="https://shop-phinf.pstatic.net/20230804_278/1691134166628lf5Ld_JPEG/5437068445859815_1851369065.jpg?type=m510" alt="베스트 상품 1">
+                    </div>
+                    <div class="review">
+                        <img src="https://shop-phinf.pstatic.net/20230804_278/1691134166628lf5Ld_JPEG/5437068445859815_1851369065.jpg?type=m510" alt="베스트 상품 1">
+                    </div>
+                    <div class="review">
+                        <img src="https://shop-phinf.pstatic.net/20230804_278/1691134166628lf5Ld_JPEG/5437068445859815_1851369065.jpg?type=m510" alt="베스트 상품 1">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footWrap">
+            <div class="otherPage">
+                <a href="#">Pawinhand Store</a>
+                <a href="#">Pawinhand Friends</a>
+            </div>
+            <div class="shortCutLink">
+                <a href="#">instagram</a>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">blog</a>
+            </div>    
+        </div>
+        <span>
+            Copyright 2024. ppuppy All rights reserved.<br class="m_br">
+            본 사이트는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.
+        </span>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,388 @@
+@media all and (max-width : 540px) {
+    /* 공통영역 ============================ */
+    .wrap {
+        padding: 0 1rem; box-sizing: border-box;
+    }
+    html,body{
+        font-size: 14px;
+    }
+    /* 햄버거버튼 ----------------------------------- */
+
+    .menuIcon{
+        display: block;
+        width: 30px; height: 15px;
+        position: absolute; top: 2rem; right: 15px; z-index: 99999;
+        cursor: pointer;
+    }
+    .menuIcon span{
+        display: block;
+        position: absolute;
+        width: 100%; height: 2px;
+        border-radius: 30px;
+        background-color: #111;
+        transition: .35s;
+    }
+    .menuIcon span:first-child{
+        top: 0;
+    }
+    .menuIcon span:last-child{
+        bottom: 0;
+    }
+
+    /* 햄버거버튼 끝 ----------------------------------- */
+
+    /* 검색 모달창 -------------------------------------- */
+    .searchModal{
+        display: none;
+        width: 100%; height: 350px;
+        position: fixed; top: 0; left: 0; z-index: 99999;
+        padding: 125px 4rem 1rem 4rem; box-sizing: border-box;
+        background-color: #ffffff;
+    }
+    .searchModal img{
+        position: absolute; top: 30px; right: 30px;
+        width: 45px; height: 45px;
+        object-fit: contain;
+        cursor: pointer;
+    }
+    .searchBox{
+        display: block;
+        width: 100%; height: 55px;
+        font-size: 24px;
+        padding: 0 10px;
+        border: none;
+        border-bottom: 2px solid #ffc029;
+    }
+    .submitBut{
+        position: absolute; top: 125px; right: 4rem;
+        width: 35px; height: 35px;
+        background: url(../img/srch_icon.svg) center center;
+        background-size: contain;
+    }
+    .tagBox{
+        width: 100%; height: calc(100% - 100px);
+        padding: 2rem 1rem; box-sizing: border-box;
+    }
+    .tagBox a{
+        display: inline-block;
+        font-size: 1.2rem; font-weight: 700;
+        padding: 0.5rem 0.8rem; box-sizing: border-box;
+        margin-right: 1rem; 
+    }
+
+
+    /* 숨김메뉴 ============================================================ */
+    .hiddenMenuBg{
+        display: none;
+        width: 100%; height: 100vh;
+        position: fixed; top: 0; left: 0; z-index: 1000;
+        background-color: #ffffff;
+    }
+    .imgWrap{
+        width: 150px; height: 150px;
+        position: absolute; bottom: 1rem; left: 1rem;
+    }
+    .print{
+        object-fit: contain;
+        animation: footprint 4s;
+        transition: all 3s;
+        opacity: 0;
+    }
+    .smallPrint{
+        position: absolute; top: 5%; right: 0px;
+        width: 30px; height: 30px;
+        transform: rotate(65deg);
+        animation-delay: 4s;
+    }
+    .middlePrint{
+        position: absolute; top: calc(30% - 20px); left: calc(50% - 20px);
+        width: 40px; height: 40px;
+        transform: rotate(50deg);
+        animation-delay: 3s;
+    }
+    .bigPrint{
+        position: absolute; bottom: 15px; left: 15px;
+        width: 50px; height: 50px;
+        transform: rotate(25deg);
+        animation-delay: 2s;
+    }
+    @keyframes footprint {
+        0%{
+            opacity: 0;
+        }
+        30%{
+            opacity: 100%;
+        }
+        90%{
+            opacity: 60%;
+        }
+        100%{
+            opacity: 0%;
+        }
+    }
+    .hiddenMenuWrap{
+        width: 100%; height: 100%;
+        display: flex; flex-direction: column; align-items: center; justify-content: center;
+    }
+    .hiddenMenu{
+        padding: 1rem 0; box-sizing: border-box;
+        font-size: 3rem;
+        font-family: 'Rubik Bubbles', system-ui;
+    }
+    .hiddenMenu:hover {
+        color: #ffc029;
+    }
+    .textAnimation{
+        width: 100%;
+        display: flex; justify-content: right; align-items: center;
+        padding: 0 4rem; box-sizing: border-box;
+    }
+    .textAnimation span{
+        animation: Bounce 4s infinite;
+        transition: all 1s;
+    }
+    @keyframes Bounce {
+        0%{
+            transform:translateY(-30%);
+            opacity: 0.5;
+        }
+        50%{
+            transform:translateY(30%);
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .hiddenMenuIcon{
+        display: block;
+        width: 30px; height: 15px;
+        position: absolute; top: 22.5px; right: 15px; z-index: 99999;
+        cursor: pointer;
+    }
+    .hiddenMenuIcon span{
+        display: block;
+        position: absolute;
+        width: 100%; height: 2px;
+        border-radius: 30px;
+        background-color: #111;
+        transition: .35s;
+    }
+    .hiddenMenuIcon span:first-child{
+        top: calc(50% - 1px);
+        transform: rotate(45deg);
+    }
+    .hiddenMenuIcon span:last-child{
+        bottom: calc(50% - 1px);
+        transform: rotate(-45deg);
+    }
+
+    /* 숨김메뉴 끝  ================================================== */
+
+    p::selection{
+        background-color: #ffc029;
+    }
+
+    /* 헤더 ================================================================= */
+
+    header{
+        width: 100%; height: 80px;
+        position: fixed; top: 0; left: 0; z-index: 999;
+        display: flex; justify-content: space-between; align-items: center;
+        padding: 0.5rem 4rem 0.5rem 2rem; box-sizing: border-box; 
+        background-color: #ffffff;
+    }
+    .mainLogo{
+        width: 150px; height: 50px;
+    }
+    .mainLogo a{
+        display: block; width: 100%; height: 100%;
+        background: url(../img/mainLogo.png) center center no-repeat;
+        background-size: contain;
+    }
+    .MenuWrap{
+        display: none;
+    }
+    .MenuWrap a{
+        padding: 0.3rem 0.5rem; box-sizing: border-box;
+        font-size: 1.5rem;
+        font-family: 'Rubik Bubbles', system-ui;
+    }
+    .searchBut{
+        width: 35px; height: 35px;
+        border-radius: 100px;
+        background: url(../img/srch_icon.svg) center center;
+        background-size: contain;
+    }
+    
+    /* 배너 부분 ====================================== */
+    /* 반응형 레이아웃용 부모 */
+    .mainCon{
+        width: 100%;
+        padding-top: 130px; box-sizing: border-box;
+    }
+    .conWrap{
+        width: 100%;
+    }
+    /* pc버전 기준 왼쪽 배너 부분 */
+    .slideBanner{
+        width: 100%; overflow: hidden;
+        border: 2px solid #ffc029; box-sizing: border-box;
+        border-radius: 1rem;
+    }
+    .slideBanner img{
+        object-fit: cover;
+    }
+    .swiper .swiper-pagination-bullet {
+        background-color: #ffc029;
+        scale: 1.5;
+        margin: 0 10px !important;
+    }
+    .bannerTitle{
+        color: #ffc029;
+        font-size: 3rem;
+        padding: 1.5rem 0; box-sizing: border-box;
+        position: relative;
+    }
+    .bannerTitle i{
+        width: 70px; height: 70px;
+        position: absolute; bottom: 0px; right: 0.5rem;
+        background: url(../img/icon.png) center center no-repeat;
+        background-size: contain;
+    }
+    .adBanner{
+        margin-top: 5rem;
+        width: 100%; height: fit-content;
+        padding: 1rem; box-sizing: border-box;
+        background-color: rgb(235, 235, 235);
+        display: flex; flex-direction: column;
+        justify-content: center; align-items: center;
+    }
+    .adBanner>p{
+        font-size: 1.3rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+    .adBanner strong{
+        color: #f1a522;
+    }
+    .adBanner img{
+        width: 50%; min-width: 180px;
+        object-fit: contain;
+    }
+    /* pc버전 기준 왼쪽 배너 부분 끝*/
+    /* pc버전 기준 오른쪽 컨텐츠 부분 */
+    .contentsWrap{
+        margin-top: 5rem;
+    }
+    .tabMenuWrap{
+        width: 100%;
+        padding: 1rem; box-sizing: border-box;
+        display: flex; justify-content: space-around; align-items: center;
+        flex-wrap: wrap;
+        border-bottom: 2px solid #ffc029;
+    }
+    .tabMenu{
+        font-size: 1.5rem; text-align: center;
+        padding: 0.5rem 1rem; box-sizing: border-box;
+        border-radius: 50px;
+        transition: color .2s;
+        cursor: pointer;
+    }
+    .tabMenu:hover{
+        border: 2px solid #ffc029;
+    }
+    .menuBox{
+        width: 100%; height: fit-content;
+        padding: 1.5rem; box-sizing: border-box;
+        display: flex; flex-wrap: wrap;
+        justify-content: space-around; align-items: center;
+        position: relative;
+    }
+    .conBut{
+        font-size: 4rem; font-weight: 300;
+        color: #ffc029;
+        position: absolute; top: calc(50% - 3rem);
+        cursor: pointer;
+    }
+    .leftBut{
+        left: -0.5rem;
+    }
+    .rightBut{
+        right: -0.5rem;
+    }
+    .inCon{
+        width: 100%;
+    }
+    .inCon img{
+        min-width: 200px;
+    }
+    .reviewTitle{
+        margin-top: 0.5rem;
+        padding: 1rem; box-sizing: border-box;
+        font-weight: 400;
+        display: flex; justify-content: center; align-items: center;
+    }
+    .reviewTitle .tabMenu{
+        border: 2px solid #ffc029; box-sizing: border-box;
+    }
+    .reviewCon{
+        width: 100%; overflow: hidden;
+        display: flex; justify-content: space-around; align-items: center;
+        flex-wrap: wrap;
+    }
+    .review{
+        width: 100%;
+        margin: 5px;
+        overflow: hidden;
+        position: relative;
+        transition: all .4s;
+    }
+    .review:hover::after{
+        transition: all .4s;
+        display: block; top: 0; left: 0;
+        padding: 1rem; box-sizing: border-box;
+        position: absolute;
+        width: 100%; height: 100%;
+        content: '디자인도 귀엽고 잘 들고다닐 수 있을 것 같아요';
+        color: #ffa229; font-weight: 600;
+        background-color: rgba(255,255,255,0.2);
+        backdrop-filter: blur(5px);
+        display: flex; justify-content: center; align-items: center;
+    }
+    /* 푸터 영역 ==================================================== */
+    footer{
+        margin-top: 5vw;
+        width: 100%; height: 400px;
+        background-color: black; color: #ffffff;
+        padding: 2rem; box-sizing: border-box;
+        position: relative;
+    }
+    .footWrap{
+        width: 100%;
+    }
+    .otherPage{
+        width: 100%;
+        display: flex; flex-direction: column;
+    }
+    .otherPage a{
+        font-size: 2.2rem; font-family: 'Rubik Bubbles', system-ui;
+        padding: 1.5rem 0; box-sizing: border-box;
+    }
+    .shortCutLink{
+        margin-top: 1rem;
+        width: 100%; height: 30%;
+        display: flex;
+        align-items: center; justify-content: space-around;
+    }
+    .shortCutLink a{
+        font-size: 1.2rem;
+        padding: 0.8rem 0;
+    }
+    footer span{
+        position: absolute; bottom: 2rem; left: 2rem;
+        color: #555;
+    }  
+
+}
